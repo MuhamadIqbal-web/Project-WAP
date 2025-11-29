@@ -168,7 +168,7 @@ if (isset($_POST['login'])) {
 <body>
     <div class="container">
         <div class="logo">⚙️FitTask</div>
-        <h2>Selamat Datang Kembali!</h2>
+        <h2>Welcome Back Brother!</h2>
         <p class="sub-text">Belum punya akun? <a href="register.php">Daftar</a></p>
 
         <form method="POST">
