@@ -9,7 +9,7 @@ name: CI/CD Auto Pull and Rebuild
 # 2. Manual trigger melalui GitHub Actions tab
 on:
   push:
-    branches: [ master ]  # Hanya berjalan ketika push ke master
+    branches: [ main ]  # Hanya berjalan ketika push ke master
   workflow_dispatch:      # Bisa dijalankan manual juga
 
 jobs:
