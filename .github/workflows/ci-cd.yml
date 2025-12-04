@@ -13,8 +13,8 @@ on:
   workflow_dispatch:      # Bisa dijalankan manual juga
 
 jobs:
-  deploy-andi:
-    runs-on: [laptop-andi]
+  LAPTOP-FEVGECTU:
+    runs-on: [LAPTOP-FEVGECTU]
     
     steps:
     # Step 0: Detect project path dynamically
@@ -78,8 +78,8 @@ jobs:
           echo "❌ Deployment gagal di laptop-andi! Cek log error di atas"
         fi
 
-  deploy-hudya:
-    runs-on: [laptop-hudya]
+  my-laptop:
+    runs-on: [my-laptop]
     
     steps:
     # Step 0: Detect project path dynamically
